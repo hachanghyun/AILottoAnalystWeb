@@ -1,8 +1,8 @@
-## 1.Deployment URL
+## 1. Deployment URL
   https://github.com/hachanghyun/chatGpt1
   
-## 2.Summary
-### (1).ChatGpt mode 설명
+## 2. Summary
+### (1). ChatGpt mode 설명
 #### complete mode
     뭔가를 써달라고 하거나 번역, 브레인 스토밍 등등 
 
