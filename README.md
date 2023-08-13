@@ -33,7 +33,10 @@
 
 #### Best of 
     결과를 여러개 만들어서 5개중에 제일 괜찮은것 추천해줌 
-    
+
+#### SYSTEM (역할부여)
+![화면 캡처 2023-08-13 214439](https://github.com/hachanghyun/chatGpt1/assets/33058284/df551067-f662-43ad-9d16-895dea46f504)
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
