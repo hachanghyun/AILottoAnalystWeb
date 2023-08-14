@@ -1,25 +1,26 @@
 const { Configuration, OpenAIApi } = require("openai");
+const serverless = require('serverless-http');
 const express = require('express');
 var cors = require('cors');
 const app = express();
 
 require('dotenv').config();
 
-//환경설정 파일 데이터 불러오기
+/* 환경설정 파일 데이터 불러오기 */
 const configuration = new Configuration({
   apiKey: process.env.apiKey,
 });
 const openai = new OpenAIApi(configuration);
 
+/* cors 이슈 해결 */
+let corsOptions = {
+  origin: 'https://chatgptlotto.pages.dev',
+  credentials: true,
+  optionSuccessStatus: 200,
+}
+app.use(cors(corsOptions));
 
-//cors 이슈 해결
-// let corsOptions = {
-//   origin: 'https://www.domain.com',
-//   credentials: true
-// }
-app.use(cors());
-
-//POST 요청 받을 수 있게 만듬.
+/* POST 요청 받을 수 있게 만듬. */
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
@@ -50,5 +51,9 @@ app.post('/postlotto', async function (req, res) {
         }
 });
 
-app.listen(3000)
+/* 배포 serverless 방식 */
+module.exports.handler = serverless(app);
+
+//* localhost test */
+//app.listen(3000)
 

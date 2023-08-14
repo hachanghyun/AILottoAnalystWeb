@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +8,39 @@
   <title>로또번호 예측 전문가 AI</title>
   <style>
     .container {
-        width: 600px;
+        width: 350px;
         height: 500px;
         background-size: auto;
         text-align: center;
         background: url("./images/AI.png");
-        opacity: 0.3;
       }
   </style>
 </head>
 <body>
     <h1></h1>
+    <div class="top-banner">
+        <a href="https://toss.me/가산동핫옹" target="_blank">추가로 링크를 눌러 작은 정성 베풀어 주시면 더욱 좋은 운이 있으실 겁니다.<span>福</span></a>
+      </div>
     <div class="container">
+        <span class="text" style="color: aqua; font-size: medium;"></span><span class="blink"></span>
     </div>
-    <span class="text" style="color: aqua; font-size: medium; opacity: 1;"></span><span class="blink"></span>
     <input id = "inputData" type="text" placeholder="이름을 입력하세요"/>
     <div id = "loadingComponenet" class="loading" style="display: none;">Loading&#8230;</div>
     <button type="button" id = "btnComponent" class="button" onclick="getLotto()">요청하기</button>
+    <ins class="kakao_ad_area" style="display:none;"
+    data-ad-unit = "DAN-ntcdwB7mxJ0f1bcD"
+    data-ad-width = "320"
+    data-ad-height = "50"></ins>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 <script>
+    /* fetch 요청 */
     async function getLotto() {
         try {
             document.getElementById('loadingComponenet').style.display = 'block';
             var inputData = document.getElementById('inputData').value;
             console.log("inputData",inputData);
-            const response = await fetch('http://localhost:3000/postlotto', {
+            //const response = await fetch('http://localhost:3000/postlotto', {
+            const response = await fetch('https://43oxpfsyidd3wakzf44qumayl40stlbk.lambda-url.ap-northeast-2.on.aws/postlotto', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -42,18 +51,16 @@
             });
             const data = await response.json();
             typeFunc(data);
-            //console.log(data);
-            //return data;
             } catch (error) {
                 console.error(error);
                 document.getElementById('loadingComponenet').style.display = 'none';
                 alert(error);
             }
     }
-
+    /* text blink method */
     async function typeFunc (data) {
         try {
-            const content = data.assistant;
+            const content =  data.assistant;
             const text = document.querySelector(".text");
             text.textContent = "";
             let txtIdx = 0;
