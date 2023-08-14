@@ -66,13 +66,16 @@
 ##### 프론트엔드 서버
     visual code extentions에서 Live Server 설치
 
-##### 프론트엔드 UI 사이트
+##### 프론트엔드 UI 참조 사이트
     codepen
 
 ###### async await
     async 키워드
     async 키워드는 어렵게 생각할 필요없이 await를 사용하기 위한 선언문 정도로 이해하면 된다. 즉,         function 앞에 async을 붙여줌으로써, 함수내에서 await 키워드를 사용할 수 있게 된다. 이는 반대로 말    하면 await 키워드를 사용하기 위해선 반드시 async function 정의가 되어 있어야 한다는 말과 같다.
 
+##### 프론트엔드 배포 
+    Cloud Flare Pages 에서 무료 배포 진행
+    
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
