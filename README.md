@@ -81,6 +81,9 @@
     npm i serverless-http
 <img width="494" alt="스크린샷 2023-08-14 오후 4 58 06" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/8ee2f476-869e-4bfe-84fe-1949295d2216">
 
+##### 웹뷰앱 개발을 위한 안드로이드 apk 시뮬레이터에 배포과정
+  <img width="1113" alt="스크린샷 2023-08-14 오후 6 50 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/b833b813-010e-4dda-8cfc-522196f3678b">
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
