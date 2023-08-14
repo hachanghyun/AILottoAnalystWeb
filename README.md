@@ -51,8 +51,14 @@
 #### express로 웹서버 구동 하기
 ##### express 설치 명령어
     npm i express
+##### express 테스트
+    node index.js
+    웹브라우저 localhost:3000 접속확인
+##### cors 설정
+    npm i cors
     
-
+##### api key 관리를 위해 dotenv 설치
+    
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
