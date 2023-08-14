@@ -75,7 +75,12 @@
 
 ##### 프론트엔드 배포 
     Cloud Flare Pages 에서 무료 배포 진행
-    
+
+##### 백엔드 배포
+    serverless 방식으로 배포 진핼
+    npm i serverless-http
+<img width="494" alt="스크린샷 2023-08-14 오후 4 58 06" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/8ee2f476-869e-4bfe-84fe-1949295d2216">
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
