@@ -85,6 +85,9 @@
   <img width="1113" alt="스크린샷 2023-08-14 오후 6 50 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/b833b813-010e-4dda-8cfc-522196f3678b">
   
     eas build -p android --profile preview
+##### webview app 라이브러리 설치
+    npx expo install react-native-webview
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
