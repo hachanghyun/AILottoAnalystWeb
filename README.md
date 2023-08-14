@@ -88,6 +88,9 @@
 ##### webview app 라이브러리 설치
     npx expo install react-native-webview
 
+##### ios 배포진행
+    eas submit --platform ios 
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
