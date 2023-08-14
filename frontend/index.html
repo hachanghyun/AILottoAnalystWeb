@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>로또번호 예측 전문가 AI</title>
+  <style>
+    .container {
+        width: 600px;
+        height: 500px;
+        background-size: auto;
+        text-align: center;
+        background: url("./images/AI.png");
+        opacity: 0.3;
+      }
+  </style>
+</head>
+<body>
+    <h1></h1>
+    <div class="container">
+    </div>
+    <span class="text" style="color: aqua; font-size: medium; opacity: 1;"></span><span class="blink"></span>
+    <input id = "inputData" type="text" placeholder="이름을 입력하세요"/>
+    <div id = "loadingComponenet" class="loading" style="display: none;">Loading&#8230;</div>
+    <button type="button" id = "btnComponent" class="button" onclick="getLotto()">요청하기</button>
+<script>
+    async function getLotto() {
+        try {
+            document.getElementById('loadingComponenet').style.display = 'block';
+            var inputData = document.getElementById('inputData').value;
+            console.log("inputData",inputData);
+            const response = await fetch('http://localhost:3000/postlotto', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    message: inputData
+                }),
+            });
+            const data = await response.json();
+            typeFunc(data);
+            //console.log(data);
+            //return data;
+            } catch (error) {
+                console.error(error);
+                document.getElementById('loadingComponenet').style.display = 'none';
+                alert(error);
+            }
+    }
+
+    async function typeFunc (data) {
+        try {
+            const content = data.assistant;
+            const text = document.querySelector(".text");
+            text.textContent = "";
+            let txtIdx = 0;
+            function typing(){
+                let txt = content[txtIdx++];
+                if (txt == undefined) return;
+                text.innerHTML += txt=== "\n" ? "<br/>": txt;
+                if (txtIdx > content.length) {
+                    txtIdx = 0;
+                }else{
+                    setTimeout(typing, 100)
+                }
+            }
+            typing();
+            document.getElementById('loadingComponenet').style.display = 'none';
+            const btnElement = document.getElementById('btnComponent');
+            btnElement.innerText = '다시하기';
+        } catch (error) {
+            console.error(error);
+        } 
+    }
+		
+</script>
+</body>
+</html>
