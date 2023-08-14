@@ -61,7 +61,8 @@
     .env 파일에 apikey 관리
     .gitignore파일에 .env 추가
 ##### api get test
-  <img width="1440" alt="스크린샷 2023-08-14 오전 10 27 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/e70f4e74-5b53-4143-8bbb-ddd9fe561781">
+<img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
+
 
 ## 3. Meaning
 
