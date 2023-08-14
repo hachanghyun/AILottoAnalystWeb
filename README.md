@@ -48,6 +48,11 @@
 #### npm usage로 샘플로 데이터 잘 가져오는지 확인 
 <img width="678" alt="스크린샷 2023-08-13 오후 11 00 33" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/799700b4-a86f-478a-b742-0d8a0df5eb07">
 
+#### express로 웹서버 구동 하기
+##### express 설치 명령어
+    npm i express
+    
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
