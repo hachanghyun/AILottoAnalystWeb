@@ -11,6 +11,9 @@
   }
   
   .button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
     --bouncing-offset: 0.35em;
     --bg: 178, 60%, 48%;
   
@@ -184,8 +187,10 @@ html {
 /* (Just ignore)top banner style */
 .top-banner {
   --bg: 178, 60%, 48%;
-
-  margin-bottom: 30px;
+  width: 350px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   text-align: center;
   background-color: hsl(var(--bg));
 }
