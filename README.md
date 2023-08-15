@@ -32,7 +32,7 @@
 
     백엔드서버는 Serverless방식으로 AWS lambda함수에 배포를 하였으며 CORS 적용을 해주었습니다.
     처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
-    <span style="color:red"> 
+<span style="color:red"> 
     Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: 
     No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, 
     set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled. </span>
