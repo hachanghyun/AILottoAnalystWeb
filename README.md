@@ -1,5 +1,5 @@
 ## 1. Deployment URL
-  https://github.com/hachanghyun/chatGpt1
+  https://github.com/hachanghyun/chatGptLotto
   
 ## 2. Summary
 
@@ -133,37 +133,37 @@
 https://codepen.io/
 
 ##### node js 라이브러리 다운로드 사이트
-    https://www.npmjs.com/
+https://www.npmjs.com/
 
 ##### node js express 서버 usage 사이트
-      https://expressjs.com/ko/
+  https://expressjs.com/ko/
 
 ##### 프론트엔드 배포사이트 (pages로 접속)
-    https://dash.cloudflare.com/
+https://dash.cloudflare.com/
 
 ##### 백엔드 배포사이트 (lamda 함수 사용)
-    https://aws.amazon.com/ko/?nc2=h_lg
+https://aws.amazon.com/ko/?nc2=h_lg
 
 ##### expo 빌드 참조 사이트
-    https://docs.expo.dev/build-reference/apk/
+https://docs.expo.dev/build-reference/apk/
 
 ##### expo webview 예제확인
-    https://docs.expo.dev/versions/latest/sdk/webview/
+https://docs.expo.dev/versions/latest/sdk/webview/
 
 ##### APP ICON AI 생성사이트
-    https://labs.openai.com/
+https://labs.openai.com/
 
 ##### 카카오 앱 광고 사이트
-    https://adfit.kakao.com/info
+https://adfit.kakao.com/info
 
 ##### 안드로이드 앱 배포 사이트
-    https://play.google.com/console
+https://play.google.com/console
 
 #### IOS 앱 배포 사이트 (맥북 safari로만 접속)
-    appstoreconnect.apple.com
+appstoreconnect.apple.com
 
 #### 안드로이드 배포시 개인정보처리지침 가이드 블로그
-    https://soir1984.tistory.com/3
+https://soir1984.tistory.com/3
 
 ##### 영문주소 변환사이트
-    https://www.jusoen.com/
+https://www.jusoen.com/
