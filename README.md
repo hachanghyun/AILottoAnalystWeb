@@ -26,7 +26,7 @@
     로또 번호 추천을 받고 다시하기 버튼으로 text변경후 요청을 다시 할수 있게끔 처리하였습니다.
 ![KakaoTalk_Photo_2023-08-15-07-58-53 005](https://github.com/hachanghyun/chatGptLotto/assets/33058284/683c8a91-36ab-424c-95a9-493f3df0b830)
 
-    프론트엔드 파일(HTML,CSS,IMG)은 CLoudFlare Pages로 배포를 하였습니다. ZIP배포말고 폴더배포로 진행
+    프론트엔드 파일(HTML,CSS,IMG)은 CLoudFlare Pages로 배포를 하였습니다. (ZIP배포말고 폴더배포로 진행)
     배포시 코드는 AWS Lambda 함수 URL정보로 변경후 배포해주었습니다. (local서버랑 구분)
 ![화면 캡처 2023-08-15 110157](https://github.com/hachanghyun/chatGptLotto/assets/33058284/7358c1aa-34c6-4559-b1c0-f4006a1ad22f)
 
