@@ -31,6 +31,8 @@
     /* fetch 요청 */
     async function getLotto() {
         try {
+            const btn = document.getElementById('btnComponent');
+            btn.disabled = true;
             document.getElementById('loadingComponenet').style.display = 'block';
             var inputData = document.getElementById('inputData').value;
             console.log("inputData",inputData);
@@ -67,12 +69,16 @@
                     txtIdx = 0;
                 }else{
                     setTimeout(typing, 100)
+                    if (txtIdx == content.length) {
+                        const btn = document.getElementById('btnComponent');
+                        btn.disabled = false;
+                        btnElement.innerText = '다시하기';
+                    }
                 }
             }
             typing();
             document.getElementById('loadingComponenet').style.display = 'none';
             const btnElement = document.getElementById('btnComponent');
-            btnElement.innerText = '다시하기';
         } catch (error) {
             console.error(error);
         } 

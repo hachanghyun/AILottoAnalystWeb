@@ -13,12 +13,12 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 /* cors 이슈 해결 */
-let corsOptions = {
-  origin: 'https://chatgptlotto.pages.dev',
-  credentials: true,
-  optionSuccessStatus: 200,
-}
-app.use(cors(corsOptions));
+// let corsOptions = {
+//   origin: 'https://chatgptlotto.pages.dev',
+//   credentials: true,
+//   optionSuccessStatus: 200,
+// }
+app.use(cors());
 
 /* POST 요청 받을 수 있게 만듬. */
 app.use(express.json()) // for parsing application/json
@@ -52,8 +52,8 @@ app.post('/postlotto', async function (req, res) {
 });
 
 /* 배포 serverless 방식 */
-module.exports.handler = serverless(app);
+//module.exports.handler = serverless(app);
 
 //* localhost test */
-//app.listen(3000)
+app.listen(3000)
 
