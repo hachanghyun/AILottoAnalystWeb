@@ -8,7 +8,7 @@
     
 ##### api get test
 <img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
-
+ㄴ
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
