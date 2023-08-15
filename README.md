@@ -17,7 +17,7 @@
     기본적인 프론트엔드 화면입니다. 컴포넌트는 상단배너, AI로봇배경, 이름 입력 컴포넌트, 요청 버튼으로 구성하였습니다.
 ![KakaoTalk_Photo_2023-08-15-07-58-53 001](https://github.com/hachanghyun/chatGptLotto/assets/33058284/5defe4bb-7a97-40e2-9955-443854b064fb)
 
-    이름을 입력후 요청을 보내면 spinner 이벤트로 화면 disable 처리를 하였으면 응답이 오면 disable 처리를 해제하였습니다.
+    이름을 입력후 요청을 보내면 spinner 이벤트로 화면 disable 처리를 하였으며 응답이 오면 disable 처리를 해제하였습니다.
 ![KakaoTalk_Photo_2023-08-15-07-58-53 003](https://github.com/hachanghyun/chatGptLotto/assets/33058284/be7c98f2-b7dc-48ed-be68-03e89d6b034a)
 
     데이터를 setTimeout으로 0.1초 delay처리를 하여 타이핑효과를 주였습니다. 
