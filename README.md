@@ -27,6 +27,7 @@
 ![KakaoTalk_Photo_2023-08-15-07-58-53 005](https://github.com/hachanghyun/chatGptLotto/assets/33058284/683c8a91-36ab-424c-95a9-493f3df0b830)
 
 
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
