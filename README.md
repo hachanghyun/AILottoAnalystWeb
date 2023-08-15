@@ -34,7 +34,7 @@
     .env 파일에 apikey 관리
     .gitignore파일에 .env 추가
 
-###### async await
+##### async await
     async 키워드
     async 키워드는 어렵게 생각할 필요없이 await를 사용하기 위한 선언문 정도로 이해하면 된다. 즉,         
     function 앞에 async을 붙여줌으로써, 함수내에서 await 키워드를 사용할 수 있게 된다. 이는 반대로 말    
