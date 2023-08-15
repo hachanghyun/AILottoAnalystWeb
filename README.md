@@ -54,10 +54,10 @@
     url을 개인정보지침에 등록하면 되는 과정이었다. 이 부분에 대해서 정리가 잘된 블로그가 있어서 참조하여 진행하였다. (하단 안드로이드 배포시 개인정보처리지침
     가이드 참조) 
 
-    안드로이드 심사 대기중 화면
+  ##### 안드로이드 심사 대기중 화면
   ![화면 캡처 2023-08-15 111500](https://github.com/hachanghyun/chatGptLotto/assets/33058284/77620fda-f938-4265-bf20-d88c0e49c4b6)
 
-  IOS 심사 대기중 화면
+ ##### IOS 심사 대기중 화면
   <img width="916" alt="스크린샷 2023-08-15 오전 11 16 34" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/4853efb2-98c6-4f05-898a-744c2cdba54a">
 
     
