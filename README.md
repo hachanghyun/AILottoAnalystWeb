@@ -33,9 +33,11 @@
     백엔드서버는 Serverless방식으로 AWS lambda함수에 배포를 하였으며 CORS 적용을 해주었습니다.
     처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
 
-    Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled.
-    위 에러가 주구장창 났었고 해결방법은 cors option값에 origin값을 넣고 요청을 보내면 Access-Control-Allow-Origin이 자동으로 헤더에 매핑된다고한다. 여기서 이 origin 값은 
-    요청받는 프론트엔드 주소로 입력. 뒤에 '/'도 제거하고 입력하여야 한다 ( ex) 'https://myhompage.com' (o), 'https://myhompage.com/' (x) )
+    Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: 
+    No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, 
+    set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled.
+    위 에러가 주구장창 났었고 해결방법은 cors option값에 origin값을 넣고 요청을 보내면 Access-Control-Allow-Origin이 자동으로 헤더에 매핑된다고한다. 
+    여기서 이 origin 값은 요청받는 프론트엔드 주소로 입력. 뒤에 '/'도 제거하고 입력하여야 한다 ( ex) 'https://myhompage.com' (o), 'https://myhompage.com/' (x) )
     그리고 AWS lambda 함수에서 ROOT 디렉토리에 다이렉트로 파일을 넣어주어야한다. 처음에 ZIP파일로 해서 backend 파일 경로에 들어가서 index.js 파일이 실행안됬던것같다.
     위 두가지 방법으로 cors 문제 해결했다. 
 ![화면 캡처 2023-08-15 110332](https://github.com/hachanghyun/chatGptLotto/assets/33058284/f424cbd5-9a6e-4cb7-ada3-d51b1e49702b)
