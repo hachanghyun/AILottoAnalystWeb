@@ -26,6 +26,21 @@
     로또 번호 추천을 받고 다시하기 버튼으로 text변경후 요청을 다시 할수 있게끔 처리하였습니다.
 ![KakaoTalk_Photo_2023-08-15-07-58-53 005](https://github.com/hachanghyun/chatGptLotto/assets/33058284/683c8a91-36ab-424c-95a9-493f3df0b830)
 
+    프론트엔드 파일(HTML,CSS,IMG)은 CLoudFlare Pages로 배포를 하였습니다. ZIP배포말고 폴더배포로 진행
+    배포시 코드는 AWS Lambda 함수 URL정보로 변경후 배포해주었습니다. (local서버랑 구분)
+![화면 캡처 2023-08-15 110157](https://github.com/hachanghyun/chatGptLotto/assets/33058284/7358c1aa-34c6-4559-b1c0-f4006a1ad22f)
+
+    백엔드서버는 Serverless방식으로 AWS lambda함수에 배포를 하였으며 CORS 적용을 해주었습니다.
+    처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
+
+    Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled.
+    위 에러가 주구장창 났었고 해결방법은 cors option값에 origin값을 넣고 요청을 보내면 Access-Control-Allow-Origin이 자동으로 헤더에 매핑된다고한다. 여기서 이 origin 값은 
+    요청받는 프론트엔드 주소로 입력. 뒤에 '/'도 제거하고 입력하여야 한다 ( ex) 'https://myhompage.com' (o), 'https://myhompage.com/' (x) )
+    그리고 AWS lambda 함수에서 ROOT 디렉토리에 다이렉트로 파일을 넣어주어야한다. 처음에 ZIP파일로 해서 backend 파일 경로에 들어가서 index.js 파일이 실행안됬던것같다.
+    위 두가지 방법으로 cors 문제 해결했다. 
+![화면 캡처 2023-08-15 110332](https://github.com/hachanghyun/chatGptLotto/assets/33058284/f424cbd5-9a6e-4cb7-ada3-d51b1e49702b)
+
+
 
 
 ## 3. Meaning
