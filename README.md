@@ -3,7 +3,10 @@
   
 ## 2. Summary
 
-##### 백엔드 개발 OpenAi API 테스트
+### 주요기능
+#### (1). 백엔드 개발 OpenAi API 테스트
+    기본적으로 node.js 설치후에 openai API 라이브러리 설치와 express 서버를 설치하고 
+    open API 테스트를 진행하였습니다.
 <img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
 ## 3. Meaning
