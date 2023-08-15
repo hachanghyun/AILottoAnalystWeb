@@ -15,16 +15,20 @@
 #### (2). 프론트엔드 백엔드 연동 
 
     기본적인 프론트엔드 화면입니다. 컴포넌트는 상단배너, AI로봇배경, 이름 입력 컴포넌트, 요청 버튼으로 구성하였습니다.
-![KakaoTalk_Photo_2023-08-15-07-58-53 001](https://github.com/hachanghyun/chatGptLotto/assets/33058284/5defe4bb-7a97-40e2-9955-443854b064fb)
+![KakaoTalk_Photo_2023-08-15-12-53-31](https://github.com/hachanghyun/chatGptLotto/assets/33058284/9b41b9d1-ff9c-4397-bea6-f93b999e2c2a)
+
 
     이름을 입력후 요청을 보내면 spinner 이벤트로 화면 disable 처리를 하였으며 응답이 오면 disable 처리를 해제하였습니다.
-![KakaoTalk_Photo_2023-08-15-07-58-53 003](https://github.com/hachanghyun/chatGptLotto/assets/33058284/be7c98f2-b7dc-48ed-be68-03e89d6b034a)
+![KakaoTalk_Photo_2023-08-15-12-53-35](https://github.com/hachanghyun/chatGptLotto/assets/33058284/c21152dc-a2bb-4c09-9783-b35f08c14ae5)
+
 
     데이터를 setTimeout으로 0.1초 delay처리를 하여 타이핑효과를 주였습니다. 
-![KakaoTalk_Photo_2023-08-15-07-58-53 004](https://github.com/hachanghyun/chatGptLotto/assets/33058284/ab8d6d48-a671-4427-bf5d-cfe85e9fd4cb)
+![KakaoTalk_Photo_2023-08-15-12-53-40](https://github.com/hachanghyun/chatGptLotto/assets/33058284/1367cd92-f843-4be7-8b38-be4346aa53bd)
+
 
     로또 번호 추천을 받고 다시하기 버튼으로 text변경후 요청을 다시 할수 있게끔 처리하였습니다.
-![KakaoTalk_Photo_2023-08-15-07-58-53 005](https://github.com/hachanghyun/chatGptLotto/assets/33058284/683c8a91-36ab-424c-95a9-493f3df0b830)
+![KakaoTalk_Photo_2023-08-15-12-53-44](https://github.com/hachanghyun/chatGptLotto/assets/33058284/994917a6-2c22-4c19-98fd-8a428b72eee0)
+
 
     프론트엔드 파일(HTML,CSS,IMG)은 CLoudFlare Pages로 배포를 하였습니다. (ZIP배포말고 폴더배포로 진행)
     배포시 요청을 보내는 fetch 코드는 AWS Lambda 함수 URL정보로 변경후 배포해주었습니다. (local서버랑 구분)
