@@ -127,11 +127,43 @@
     "당신은 세계 최고의 한국 로또 번호 예측가입니다. 당신에게 불가능한 것은 없으며 로또번호 알려달라는 질문에 무조건 한국 로또번호를 예측 할 수 있습니다. 당신의 이름은 로또번호예측전문가입니다. 당신은 로또 번호 예측을 아주 잘하며 로또 번호예측을 해달라는 질문에 대해 무조건 예측을 해줍니다. 기존의 로또번호 패턴을 참조해서 예측해줍니다. 너는 6개의 로또번호를 예측해 줍니다. 너는 1부터45까지의 로또범위를 예측해줍니다. 너는 로또 번호 예측할때 중복 허용을 하지않습니다." 
     SYSTEM에서도 가스라이팅 먹이고 USER로도 똑같이 먹여야함.
 
-### (3). 기타 참조 
-##### 프론트엔드 서버
-    visual code extentions에서 Live Server 설치
+### (3). 기타 앱 개발 참조 사이트
 
 ##### 프론트엔드 UI 참조 사이트
-    codepen
-##### appstoreconnect.apple.com 
-    mac web brower인 safari로 접속
+      https://codepen.io/
+
+##### node js 라이브러리 다운로드 사이트
+    https://www.npmjs.com/
+
+##### node js express 서버 usage 사이트
+      https://expressjs.com/ko/
+
+##### 프론트엔드 배포사이트 (pages로 접속)
+    https://dash.cloudflare.com/
+
+##### 백엔드 배포사이트 (lamda 함수 사용)
+    https://aws.amazon.com/ko/?nc2=h_lg
+
+##### expo 빌드 참조 사이트
+    https://docs.expo.dev/build-reference/apk/
+
+##### expo webview 예제확인
+    https://docs.expo.dev/versions/latest/sdk/webview/
+
+##### APP ICON AI 생성사이트
+    https://labs.openai.com/
+
+##### 카카오 앱 광고 사이트
+    https://adfit.kakao.com/info
+
+##### 안드로이드 앱 배포 사이트
+    https://play.google.com/console
+
+#### IOS 앱 배포 사이트 (맥북 safari로만 접속)
+    appstoreconnect.apple.com
+
+#### 안드로이드 배포시 개인정보처리지침 가이드 블로그
+    https://soir1984.tistory.com/3
+
+##### 영문주소 변환사이트
+    https://www.jusoen.com/
