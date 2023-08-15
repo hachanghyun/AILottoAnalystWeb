@@ -5,43 +5,11 @@
 
 #### npm usage로 샘플로 데이터 잘 가져오는지 확인 
 <img width="678" alt="스크린샷 2023-08-13 오후 11 00 33" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/799700b4-a86f-478a-b742-0d8a0df5eb07">
-
-#### express로 웹서버 구동 하기
-##### express 설치 명령어
-    npm i express
-##### express 테스트
-    node index.js
-    웹브라우저 localhost:3000 접속확인
-##### cors 설정
-    npm i cors
     
-##### api key 관리를 위해 dotenv 설치
-    .env 파일에 apikey 관리
-    .gitignore파일에 .env 추가
 ##### api get test
 <img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
-###### async await
-    async 키워드
-    async 키워드는 어렵게 생각할 필요없이 await를 사용하기 위한 선언문 정도로 이해하면 된다. 즉,         function 앞에 async을 붙여줌으로써, 함수내에서 await 키워드를 사용할 수 있게 된다. 이는 반대로 말    하면 await 키워드를 사용하기 위해선 반드시 async function 정의가 되어 있어야 한다는 말과 같다.
-
-##### 프론트엔드 배포 
-    Cloud Flare Pages 에서 무료 배포 진행
-
-##### 백엔드 배포
-    serverless 방식으로 배포 진핼
-    npm i serverless-http
 <img width="494" alt="스크린샷 2023-08-14 오후 4 58 06" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/8ee2f476-869e-4bfe-84fe-1949295d2216">
-
-##### 웹뷰앱 개발을 위한 안드로이드 apk 시뮬레이터에 배포과정
-  <img width="1113" alt="스크린샷 2023-08-14 오후 6 50 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/b833b813-010e-4dda-8cfc-522196f3678b">
-  
-    eas build -p android --profile preview
-##### webview app 라이브러리 설치
-    npx expo install react-native-webview
-
-##### ios 배포진행
-    eas submit --platform ios 
 
 ## 3. Meaning
 
@@ -57,6 +25,33 @@
     npm init
 #### npm openai 설치 명령어
     npm i openai
+    
+##### api key 관리를 위해 dotenv 설치
+    .env 파일에 apikey 관리
+    .gitignore파일에 .env 추가
+
+###### async await
+    async 키워드
+    async 키워드는 어렵게 생각할 필요없이 await를 사용하기 위한 선언문 정도로 이해하면 된다. 즉,         
+    function 앞에 async을 붙여줌으로써, 함수내에서 await 키워드를 사용할 수 있게 된다. 이는 반대로 말    
+    하면 await 키워드를 사용하기 위해선 반드시 async function 정의가 되어 있어야 한다는 말과 같다.
+    
+#### express로 웹서버 구동 하기
+
+##### express 설치 명령어
+    npm i express
+##### express 테스트
+    node index.js
+    웹브라우저 localhost:3000 접속확인
+##### cors 설정
+    npm i cors
+
+##### 프론트엔드 배포 
+    Cloud Flare Pages 에서 무료 배포 진행
+
+##### 백엔드 배포
+    serverless 방식으로 배포 진핼
+    npm i serverless-http
 
 ### (2). webViewApp setting 명령어
 
@@ -76,9 +71,20 @@
 
 #### configure the project
     eas build:configure
+
 #### expo 프로젝트 실행
     npx expo start 
     npm start 
+
+##### 웹뷰앱 개발을 위한 안드로이드 apk 시뮬레이터에 배포과정
+  <img width="1113" alt="스크린샷 2023-08-14 오후 6 50 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/b833b813-010e-4dda-8cfc-522196f3678b">
+  
+    eas build -p android --profile preview
+##### webview app 라이브러리 설치
+    npx expo install react-native-webview
+
+##### ios 배포진행
+    eas submit --platform ios 
     
 #### 빌드전 실행
     npm install -g eas-cli
@@ -88,6 +94,7 @@
 
 #### 안드로이드 빌드
     eas build -p android
+    
 
 ## 6. 기타
 
