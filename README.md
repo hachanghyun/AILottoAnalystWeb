@@ -6,7 +6,9 @@
 ### 주요기능
 #### (1). 백엔드 개발 OpenAi API 테스트
     기본적으로 node.js 설치후에 openai API 라이브러리 설치와 express 서버를 설치하고 
-    open API 테스트를 진행하였습니다.
+    open API 테스트를 진행하였습니다. chatGpt AI에게 번호예측 전문가라는 role을 정해주는 
+    메세지와 사용자의 이름을 보여주고 응답데이터를 받는 형식으로 테스트를 진행하였습니다.
+  <img width="862" alt="스크린샷 2023-08-15 오전 10 44 28" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/73066d01-a7e4-40b4-9311-14a684910d22">
 <img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
 ## 3. Meaning
