@@ -11,6 +11,15 @@
   <img width="862" alt="스크린샷 2023-08-15 오전 10 44 28" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/73066d01-a7e4-40b4-9311-14a684910d22">
 <img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
+#### (2). 프론트엔드 백엔드 연동 
+![KakaoTalk_Photo_2023-08-15-07-58-53 004](https://github.com/hachanghyun/chatGptLotto/assets/33058284/a37e0a67-a6b0-4a88-b161-f4b8cb632119)
+![KakaoTalk_Photo_2023-08-15-07-58-53 003](https://github.com/hachanghyun/chatGptLotto/assets/33058284/16716a42-d1f9-4a99-ad58-61ee74729a11)
+![KakaoTalk_Photo_2023-08-15-07-58-53 002](https://github.com/hachanghyun/chatGptLotto/assets/33058284/dcb8f842-40ea-492f-851d-db45650ef559)
+![KakaoTalk_Photo_2023-08-15-07-58-53 001](https://github.com/hachanghyun/chatGptLotto/assets/33058284/89a90a00-bb53-4557-9409-f8d3bb8164c6)
+![KakaoTalk_Photo_2023-08-15-07-58-53 005](https://github.com/hachanghyun/chatGptLotto/assets/33058284/5d809816-d51b-46be-9fa6-8e1096033468)
+
+![512521](https://github.com/hachanghyun/chatGptLotto/assets/33058284/c394ba4e-d6e1-4166-bb98-b253b891de88)
+
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
