@@ -9,8 +9,6 @@
     open API 테스트를 진행하였습니다. chatGpt AI에게 번호예측 전문가라는 role을 정해주는 
     메세지와 사용자의 이름을 보여주고 응답데이터를 받는 형식으로 테스트를 진행하였습니다.
     이름을 입력을 안하면 이름을 제외하고 요청을 보내도록 설정하였습니다.
-  <img width="862" alt="스크린샷 2023-08-15 오전 10 44 28" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/73066d01-a7e4-40b4-9311-14a684910d22">
-<img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
 #### (2). 프론트엔드 백엔드 연동 
 
