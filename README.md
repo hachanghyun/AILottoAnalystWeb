@@ -9,8 +9,6 @@
 ##### api get test
 <img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
-<img width="494" alt="스크린샷 2023-08-14 오후 4 58 06" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/8ee2f476-869e-4bfe-84fe-1949295d2216">
-
 ## 3. Meaning
 
 ## 4. Technology Stack(s)
@@ -18,6 +16,9 @@
 ## 5. Environment Setup
 
 ### (1). 기타 node 명령어
+
+#### node 버젼확인 (14버젼으로 개발진행)
+  <img width="494" alt="스크린샷 2023-08-14 오후 4 58 06" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/8ee2f476-869e-4bfe-84fe-1949295d2216">
 
 #### node 실행 명령어
     node index.js 
