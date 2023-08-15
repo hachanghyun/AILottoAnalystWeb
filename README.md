@@ -133,3 +133,5 @@
 
 ##### 프론트엔드 UI 참조 사이트
     codepen
+##### appstoreconnect.apple.com 
+    mac web brower인 safari로 접속
