@@ -3,10 +3,8 @@
   
 ## 2. Summary
 
-#### npm usage로 샘플로 데이터 잘 가져오는지 확인 
-<img width="678" alt="스크린샷 2023-08-13 오후 11 00 33" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/799700b4-a86f-478a-b742-0d8a0df5eb07">
-    
 ##### 백엔드 개발 OpenAi API 테스트 완료
+<img width="678" alt="스크린샷 2023-08-13 오후 11 00 33" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/799700b4-a86f-478a-b742-0d8a0df5eb07">
 <img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
 ## 3. Meaning
