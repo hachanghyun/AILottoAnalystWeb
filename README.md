@@ -10,9 +10,9 @@
 
 ## 4. Technology Stack(s)
 
-    Frontend : Javascript, HTML, CSS, Expo WebView
+    Frontend : Javascript, HTML, CSS, Expo WebView, CloudFlare
     
-    Backend : Node.js, OPENAI API
+    Backend : Node.js, OPENAI API, AWS lambda
     
     Database : X
 
@@ -151,7 +151,7 @@ https://www.npmjs.com/
 ##### 프론트엔드 배포사이트 (pages로 접속)
 https://dash.cloudflare.com/
 
-##### 백엔드 배포사이트 (lamda 함수 사용)
+##### 백엔드 배포사이트 (lambda 함수 사용)
 https://aws.amazon.com/ko/?nc2=h_lg
 
 ##### expo 빌드 참조 사이트
