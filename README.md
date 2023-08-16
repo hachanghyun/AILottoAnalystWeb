@@ -104,7 +104,7 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
     node index.js
     웹브라우저 localhost:3000 접속확인
 ##### cors 설정
-    npm i cors
+    npm i cors 
 
 ##### 프론트엔드 배포 
     Cloud Flare Pages 에서 무료 배포 진행
