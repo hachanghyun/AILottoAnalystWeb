@@ -117,6 +117,9 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
     serverless 방식으로 배포 진핼
     npm i serverless-http
 
+##### 람다함수 수정후 적용
+    Deploy 꼭 눌러주자
+
 ## 6. 기타
 
 ### (1). ChatGpt mode 설명
