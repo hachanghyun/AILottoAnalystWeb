@@ -12,9 +12,12 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
+/* apiKey 제대로 가져오는지 확인 */
+//console.log("apiKey",process.env.apiKey);
+
 /* cors 이슈 해결 배포용 */
 let corsOptions = {
-  origin: 'https://chatgptlotto.pages.dev',
+  origin: 'https://ailottoanalyst.pages.dev',
   credentials: true,
   optionSuccessStatus: 200,
 }
