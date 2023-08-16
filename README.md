@@ -9,34 +9,20 @@
     open API 테스트를 진행하였습니다. chatGpt AI에게 번호예측 전문가라는 role을 정해주는 
     메세지와 사용자의 이름을 보여주고 응답데이터를 받는 형식으로 테스트를 진행하였습니다.
     이름을 입력을 안하면 이름을 제외하고 요청을 보내도록 설정하였습니다.
-  <img width="862" alt="스크린샷 2023-08-15 오전 10 44 28" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/73066d01-a7e4-40b4-9311-14a684910d22">
-<img width="1440" alt="스크린샷 2023-08-14 오전 10 37 52" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/9653b165-a891-48b1-b478-a359968cbde1">
 
 #### (2). 프론트엔드 백엔드 연동 
 
     기본적인 프론트엔드 화면입니다. 컴포넌트는 상단배너, AI로봇배경, 이름 입력 컴포넌트, 요청 버튼으로 구성하였습니다.
 
-
-
-
     이름을 입력후 요청을 보내면 spinner 이벤트로 화면 disable 처리를 하였으며 응답이 오면 disable 처리를 해제하였습니다.
-
-
-
 
     데이터를 setTimeout으로 0.1초 delay처리를 하여 타이핑효과를 주였습니다. 
 
-
-
-
     로또 번호 추천을 받고 다시하기 버튼으로 text변경후 요청을 다시 할수 있게끔 처리하였습니다.
-
-
-
 
     프론트엔드 파일(HTML,CSS,IMG)은 CLoudFlare Pages로 배포를 하였습니다. (ZIP배포말고 폴더배포로 진행)
     배포시 요청을 보내는 fetch 코드는 AWS Lambda 함수 URL정보로 변경후 배포해주었습니다. (local서버랑 구분)
-![화면 캡처 2023-08-15 110157](https://github.com/hachanghyun/chatGptLotto/assets/33058284/7358c1aa-34c6-4559-b1c0-f4006a1ad22f)
+
 
     백엔드서버는 Serverless방식으로 AWS lambda함수에 배포를 하였으며 CORS 적용을 해주었습니다.
     처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
@@ -51,7 +37,6 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
     여기서 이 origin 값은 요청받는 프론트엔드 주소로 입력. 뒤에 '/'도 제거하고 입력하여야 한다 ( ex) 'https://myhompage.com' (o), 'https://myhompage.com/' (x) )
     그리고 AWS lambda 함수에서 ROOT 디렉토리에 다이렉트로 파일을 넣어주어야한다. 처음에 ZIP파일로 해서 backend 파일 경로에 들어가서 index.js 파일이 실행안됬던것같다.
     위 두가지 방법으로 cors 문제 해결했다. 
-![화면 캡처 2023-08-15 110332](https://github.com/hachanghyun/chatGptLotto/assets/33058284/f424cbd5-9a6e-4cb7-ada3-d51b1e49702b)
 
     웹서버 배포이후 웹뷰앱으로 expo에 연동해서 APP배포까지 도전해보았다.
     APP ICON은 AI IMAGE 생성사이트 DALL.E에서 제작하였으며 맥북에서 두 플랫폼 모두 배포를 진행해보았다.
@@ -66,12 +51,9 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
     가이드 참조) 
 
   ##### 안드로이드 심사 대기중 화면
-  ![화면 캡처 2023-08-15 111500](https://github.com/hachanghyun/chatGptLotto/assets/33058284/77620fda-f938-4265-bf20-d88c0e49c4b6)
 
  ##### IOS 심사 대기중 화면
-  <img width="916" alt="스크린샷 2023-08-15 오전 11 16 34" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/4853efb2-98c6-4f05-898a-744c2cdba54a">
 
-    
 ## 3. Meaning
     처음에 chatGpt 열풍이 불어 open api 개발을 진행해볼 생각에 가슴이 두근거렸습니다.
     chatGpt로 만들어볼수있는 플랫폼은 무궁무진하기에 처음부터 어려운것으로 제작하면 완성자체를 못할것같아 쉬운 번호예측 시스템을 개발하기로
@@ -95,7 +77,7 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
 ### (1). 기타 node 명령어
 
 #### node 버젼확인 (14버젼으로 개발진행)
-  <img width="494" alt="스크린샷 2023-08-14 오후 4 58 06" src="https://github.com/hachanghyun/chatGptLotto/assets/33058284/8ee2f476-869e-4bfe-84fe-1949295d2216">
+    node -v
 
 #### node 실행 명령어
     node index.js 
@@ -130,48 +112,6 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
 ##### 백엔드 배포
     serverless 방식으로 배포 진핼
     npm i serverless-http
-
-### (2). webViewApp setting 명령어
-
-#### expo-cli 전역으로 설치해주는 명령어
-    npm install -g expo-cli 
-
-#### expo 프로젝트 만들어주는 명령어
-    expo init "프로젝트명"
-    
-#### expo 프로젝트 실행
-    npm init
-#### eas 세팅
-    npm install -g eas-cli
-
-#### log in expo accout
-    eas login
-
-#### configure the project
-    eas build:configure
-
-#### expo 프로젝트 실행
-    npx expo start 
-    npm start 
-
-##### 웹뷰앱 개발을 위한 안드로이드 apk 시뮬레이터에 배포 명령어
-     eas build -p android --profile preview
-     
-##### webview app 라이브러리 설치
-    npx expo install react-native-webview
-
-##### ios 배포진행
-    eas submit --platform ios 
-    
-#### 빌드전 실행
-    npm install -g eas-cli
-
-#### IOS 빌드
-    eas build -p ios
-
-#### 안드로이드 빌드
-    eas build -p android
-    
 
 ## 6. 기타
 
