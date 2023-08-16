@@ -103,8 +103,12 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
 ##### express 테스트
     node index.js
     웹브라우저 localhost:3000 접속확인
+
 ##### cors 설정
-    npm i cors
+    npm i cors 
+
+##### package.json 의존성 패키지들이 일괄설치됨 
+    npm install
 
 ##### 프론트엔드 배포 
     Cloud Flare Pages 에서 무료 배포 진행
@@ -112,6 +116,9 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
 ##### 백엔드 배포
     serverless 방식으로 배포 진핼
     npm i serverless-http
+
+##### 람다함수 수정후 적용
+    Deploy 꼭 눌러주자
 
 ## 6. 기타
 
