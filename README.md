@@ -26,12 +26,14 @@
 
     프론트엔드 파일(HTML,CSS,IMG)은 CLoudFlare Pages로 배포를 하였습니다. (ZIP배포말고 폴더배포로 진행)
     배포시 요청을 보내는 fetch 코드는 AWS Lambda 함수 URL정보로 변경후 배포해주었습니다. (local서버랑 구분)
-<img width="612" alt="화면 캡처 2023-08-28 221256" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/3922b3c3-49eb-42e0-bb18-fa006dcb5474">
+<img width="620" alt="화면 캡처 2023-08-28 221450" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/e22617ac-1a5e-4c42-944b-73cbb335c360">
+
 
 
     백엔드서버는 Serverless방식으로 AWS lambda함수에 배포를 하였으며 CORS 적용을 해주었습니다.
     처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
-    
+    <img width="433" alt="화면 캡처 2023-08-28 221458" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/150395ec-64e3-440c-bcd5-8874889662c9">
+
 <span style="color:red"> 
 "Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: 
 No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, 
@@ -56,8 +58,10 @@ set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabl
     가이드 참조) 
 
   ##### 안드로이드 심사 대기중 화면
+<img width="620" alt="화면 캡처 2023-08-28 221520" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/33e50535-a61f-4e28-b596-8023744259aa">
 
  ##### IOS 심사 대기중 화면
+<img width="617" alt="화면 캡처 2023-08-28 221527" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/581898df-54c2-4a38-a2a2-718f32e9a354">
 
 ## 3. Meaning
     처음에 chatGpt 열풍이 불어 open api 개발을 진행해볼 생각에 가슴이 두근거렸습니다.
