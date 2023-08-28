@@ -32,7 +32,7 @@
 
     백엔드서버는 Serverless방식으로 AWS lambda함수에 배포를 하였으며 CORS 적용을 해주었습니다.
     처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
-    <img width="433" alt="화면 캡처 2023-08-28 221458" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/150395ec-64e3-440c-bcd5-8874889662c9">
+  <img width="433" alt="화면 캡처 2023-08-28 221458" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/150395ec-64e3-440c-bcd5-8874889662c9">
 
 <span style="color:red"> 
 "Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: 
