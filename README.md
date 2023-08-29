@@ -34,11 +34,11 @@
     처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
   <img width="433" alt="화면 캡처 2023-08-28 221458" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/150395ec-64e3-440c-bcd5-8874889662c9">
 
-            <span style="color:red"> 
-            "Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: 
-            No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, 
-            set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled."
-            </span>
+    <span style="color:red"> 
+    "Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: 
+    No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, 
+    set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled."
+    </span>
     
     위 에러가 주구장창 났었고 해결방법은 cors option값에 origin값을 넣고 요청을 보내면 Access-Control-Allow-Origin이 자동으로 헤더에 매핑된다고한다. 
     여기서 이 origin 값은 요청받는 프론트엔드 주소로 입력. 뒤에 '/'도 제거하고 입력하여야 한다 ( ex) 'https://myhompage.com' (o), 'https://myhompage.com/' (x) )
