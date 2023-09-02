@@ -24,16 +24,16 @@
     로또 번호 추천을 받고 다시하기 버튼으로 text변경후 요청을 다시 할수 있게끔 처리하였습니다.
 ![스크린샷 2023-08-16 오전 8-1](https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/190404fa-b62b-4e66-92bd-11dfa3a37e1f)
 
+#### (3). 프론트엔드 백엔드 배포 
     프론트엔드 파일(HTML,CSS,IMG)은 CLoudFlare Pages로 배포를 하였습니다. (ZIP배포말고 폴더배포로 진행)
     배포시 요청을 보내는 fetch 코드는 AWS Lambda 함수 URL정보로 변경후 배포해주었습니다. (local서버랑 구분)
 <img width="620" alt="화면 캡처 2023-08-28 221450" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/e22617ac-1a5e-4c42-944b-73cbb335c360">
-
-
 
     백엔드서버는 Serverless방식으로 AWS lambda함수에 배포를 하였으며 CORS 적용을 해주었습니다.
     처음에 이 CORS 적용때문에 하루를 통째로 날려먹었다는... 
   <img width="433" alt="화면 캡처 2023-08-28 221458" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/150395ec-64e3-440c-bcd5-8874889662c9">
 
+#### (4). CORS 처리 
     <span style="color:red"> 
     "Access to fetch at ‘https://myhompage.com’ from origin ‘http://localhost:3000’ has been blocked by CORS policy: 
     No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, 
@@ -45,6 +45,7 @@
     그리고 AWS lambda 함수에서 ROOT 디렉토리에 다이렉트로 파일을 넣어주어야한다. 처음에 ZIP파일로 해서 backend 파일 경로에 들어가서 index.js 파일이 실행안됬던것같다.
     위 두가지 방법으로 cors 문제 해결했다. 
 
+#### (5). 개발과정 정리 
     웹서버 배포이후 웹뷰앱으로 expo에 연동해서 APP배포까지 도전해보았다.
     APP ICON은 AI IMAGE 생성사이트 DALL.E에서 제작하였으며 맥북에서 두 플랫폼 모두 배포를 진행해보았다.
     앱 배포는 정말로 힘들었다. 처음에 IOS부터 진행하였는데 SAFARI 브라우저로 신청을 진행하였고 인프런의 '리액트 네이티브 강의' 배포편을 참조하면서
