@@ -44,6 +44,7 @@
     여기서 이 origin 값은 요청받는 프론트엔드 주소로 입력. 뒤에 '/'도 제거하고 입력하여야 한다 ( ex) 'https://myhompage.com' (o), 'https://myhompage.com/' (x) )
     그리고 AWS lambda 함수에서 ROOT 디렉토리에 다이렉트로 파일을 넣어주어야한다. 처음에 ZIP파일로 해서 backend 파일 경로에 들어가서 index.js 파일이 실행안됬던것같다.
     위 두가지 방법으로 cors 문제 해결했다. 
+    ps. aws deploy 꼭해주기 적용이 안되는 경우가 있음.
 
 #### (5). WebViewApp 출시
   ##### 안드로이드 심사 대기중 화면
