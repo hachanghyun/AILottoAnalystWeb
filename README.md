@@ -45,7 +45,15 @@
     그리고 AWS lambda 함수에서 ROOT 디렉토리에 다이렉트로 파일을 넣어주어야한다. 처음에 ZIP파일로 해서 backend 파일 경로에 들어가서 index.js 파일이 실행안됬던것같다.
     위 두가지 방법으로 cors 문제 해결했다. 
 
-#### (5). 개발과정 정리 
+#### (5). WebViewApp 출시
+  ##### 안드로이드 심사 대기중 화면
+<img width="620" alt="화면 캡처 2023-08-28 221520" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/33e50535-a61f-4e28-b596-8023744259aa">
+
+ ##### IOS 심사 대기중 화면
+<img width="617" alt="화면 캡처 2023-08-28 221527" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/581898df-54c2-4a38-a2a2-718f32e9a354">
+
+
+#### (6). 개발과정 정리 
     웹서버 배포이후 웹뷰앱으로 expo에 연동해서 APP배포까지 도전해보았다.
     APP ICON은 AI IMAGE 생성사이트 DALL.E에서 제작하였으며 맥북에서 두 플랫폼 모두 배포를 진행해보았다.
     앱 배포는 정말로 힘들었다. 처음에 IOS부터 진행하였는데 SAFARI 브라우저로 신청을 진행하였고 인프런의 '리액트 네이티브 강의' 배포편을 참조하면서
@@ -57,12 +65,6 @@
     파일을 업로드 해야한다. 안드로이드 배포는 개인정보처리방침이라는 과정이 제일 복잡하였으며 개인정보처리지침 내용을 html으로 생성하여 내 홈페이지를 생성후
     url을 개인정보지침에 등록하면 되는 과정이었다. 이 부분에 대해서 정리가 잘된 블로그가 있어서 참조하여 진행하였다. (하단 안드로이드 배포시 개인정보처리지침
     가이드 참조) 
-
-  ##### 안드로이드 심사 대기중 화면
-<img width="620" alt="화면 캡처 2023-08-28 221520" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/33e50535-a61f-4e28-b596-8023744259aa">
-
- ##### IOS 심사 대기중 화면
-<img width="617" alt="화면 캡처 2023-08-28 221527" src="https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/581898df-54c2-4a38-a2a2-718f32e9a354">
 
 ## 3. Meaning
     처음에 chatGpt 열풍이 불어 open api 개발을 진행해볼 생각에 가슴이 두근거렸습니다.
