@@ -77,7 +77,7 @@
     말로 뿌듯하였습니다. 이번 프로젝트는 개발뿐만 아니라 개발외적으로 엄청나게 성장할수 있는 프로젝트였고, 하나의 개발 상품이 나오기전까지 개발자 외 다른 작업자들이 
     고생을 하고있다는 사실을 다시 한번 알게되었습니다. 위 프로젝트를 통해 개발, 비개발적으로 많은 경험을 하게 되었습니다.
 
-## 4. Technology Stack(s)
+## 4. Technology Stacks
 
     Frontend : Javascript, HTML, CSS, Expo WebView, CloudFlare
     
@@ -85,7 +85,7 @@
     
     Database : X
 
-## 5. Environment Setup
+## 5. Develop Environment
 
 ### (1). 기타 node 명령어
 
