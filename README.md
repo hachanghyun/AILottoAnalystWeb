@@ -1,4 +1,4 @@
-## 1. Deployment URL
+## 1. Deployment URL 
   https://github.com/hachanghyun/chatGptLotto
   
 ## 2. Summary
