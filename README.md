@@ -16,7 +16,7 @@
 ![스크린샷 2023-08-16 오전 8-2](https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/c98217fd-2367-4605-bbd9-409d5edc120d)
 
     이름을 입력후 요청을 보내면 spinner 이벤트로 화면 disable 처리를 하였으며 응답이 오면 disable 처리를 해제하였습니다.
-![스크린샷 2023-08-16 오전 8-3](https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/64fb3efe-e03d-4aa5-82cb-973788c113fb)
+![스크린샷 2023-08-16 오전 8-3](https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/64fb3efe-e03d-4aa5-82cb-973788c113fb) 
 
     데이터를 setTimeout으로 0.1초 delay처리를 하여 타이핑효과를 주였습니다. 
 ![스크린샷 2023-08-16 오전 8](https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/6ef21017-aa6e-41c4-bcf7-699b366b78d7)
