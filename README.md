@@ -204,7 +204,7 @@
 ##### https://play.google.com/console
 
 #### IOS 앱 배포 사이트 (맥북 safari로만 접속)
-##### appstoreconnect.apple.com
+##### https://appstoreconnect.apple.com
 
 #### 안드로이드 배포시 개인정보처리지침 가이드 블로그
 ##### https://soir1984.tistory.com/3
