@@ -21,7 +21,7 @@
     데이터를 setTimeout으로 0.1초 delay처리를 하여 타이핑효과를 주였습니다. 
 ![스크린샷 2023-08-16 오전 8](https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/6ef21017-aa6e-41c4-bcf7-699b366b78d7)
 
-    로또 번호 추천을 받고 다시하기 버튼으로 text변경후 요청을 다시 할수 있게끔 처리하였습니다.
+    로또 번호 추천을 받고 다시하기 버튼으로 text변경후 요청을 다시 할수 있게끔 처리하였습니다. 
 ![스크린샷 2023-08-16 오전 8-1](https://github.com/hachanghyun/AILottoAnalystWeb/assets/33058284/190404fa-b62b-4e66-92bd-11dfa3a37e1f)
 
 #### (3). 프론트엔드 백엔드 배포 
