@@ -1,5 +1,8 @@
-## 1. Deployment URL   
-  ### https://github.com/hachanghyun/chatGptLotto 
+## SERVER Deployment URL
+  https://github.com/hachanghyun/awsSaaSummaryServer
+
+## FrontEnd Deployment URL
+  https://github.com/hachanghyun/AwsSaaSumApp
   
 ## 2. Summary
 
