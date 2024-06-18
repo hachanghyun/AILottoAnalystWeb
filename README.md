@@ -2,7 +2,7 @@
   https://github.com/hachanghyun/AILottoAnalystWeb
 
 ## FrontEnd Deployment URL
-  https://github.com/hachanghyun/AwsSaaSumApp
+  https://github.com/hachanghyun/AILottoAnalystApp
   
 ## 2. Summary
 
